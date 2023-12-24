@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,700&family=Poppins:wght@500&family=Varela&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* justfy content is place into the center  */
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(102, 101, 101);
+}
+.calculator{
+    border: 1px solid #474849;
+    padding: 20px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+input::placeholder{
+    color: aliceblue;
+}
+button{
+    border: none;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.equalBtn{
+    background-color: orange;
+}
+.operator{
+    color: rgb(134, 214, 134);
+}
